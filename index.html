@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="public/assets/fonts/fonts.css">
+    <link rel="stylesheet" href="public/css/global.css">
+    <link rel="stylesheet" href="index.css">
+
+    <title>Crossfit - Box</title>
+</head>
+<body>
+<header class="header">
+    <div class="container nav-container" style="display: flex; justify-content: space-between; align-items: center; width: 100%;">
+        <!-- Logo -->
+        <a href="#" class="logo">CROSS-BOX</a>
+
+        <!-- Botão do Menu Hambúrguer -->
+        <button class="menu-toggle" id="menu-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+
+        <!-- Seus Links -->
+        <ul class="nav-menu" id="nav-menu">
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#equipe">Equipe</a></li>
+            <li><a href="#horarios">Horários</a></li>
+            <li><a href="#planos">Planos</a></li>
+            <li><a href="#contato">Contato</a></li>
+        </ul>
+    </div>
+</header>
+     
+
+    <section class="hero" id="hero-banner">
+        <button class="hero-btn prev" id="prev-btn">&#10094;</button>
+        <div class="hero-content">
+            <h1>Treine. Supere. Evolua.</h1>
+            <p>Transforme seu corpo, desenvolva sua força e faça parte da nossa comunidade.</p>
+            <a href="#contato" class="btn-cta">AGENDE SUA AULA EXPERIMENTAL</a>
+            
+        </div>
+        <button class="hero-btn next" id="next-btn">&#10095;</button>
+    </section>
+
+    <section class="about" id="sobre">
+        <div class="about-container">
+            <div class="about-text">
+                <h2>SOBRE O CROSS-BOX</h2>
+                <p>Mais do que um centro de treinamento, somos uma comunidade unida pela superação de limites. Nossa missão é transformar a sua saúde física e mental através de treinos intensos, seguros e adaptados para todos os níveis.</p>
+                <p>Contamos com uma estrutura de ponta, equipamentos oficiais e coaches altamente qualificados para guiar cada etapa da sua evolução.</p>
+            </div>
+
+            <div class="about-image">
+                <img src="public/assets/images/Img-about.jpg">
+            </div>
+        </div>
+    </section>
+
+    <section class="team" id="equipe">
+    <div class="team-container">
+        <h2>NOSSA EQUIPE</h2>
+        <p class="team-subtitle">Profissionais certificados e apaixonados por transformar vidas através do movimento.</p>
+        
+        <div class="team-grid">
+            <!-- Coach 1 -->
+            <div class="coach-card">
+                <img src="public/assets/images/img-coach1.jpg" alt="Foto do Coach">
+                <h3>Carlos Silva</h3>
+                <span class="coach-role">Head Coach</span>
+                <p>Especialista em levantamento de peso olímpico (LPO) e mobilidade.</p>
+            </div>
+
+            <!-- Coach 2 -->
+            <div class="coach-card">
+                <img src="public/assets/images/img-coach2.jpg" alt="Foto da Coach">
+                <h3>Mariana Souza</h3>
+                <span class="coach-role">Coach de CrossFit</span>
+                <p>Focada em condicionamento físico avançado e reabilitação de lesões.</p>
+            </div>
+
+            <!-- Coach 3 -->
+            <div class="coach-card">
+                <img src="public/assets/images/img-coach3.jpg" alt="Foto do Coach">
+                <h3>Lucas Mendes</h3>
+                <span class="coach-role">Coach & Nutricionista</span>
+                <p>Auxilia os alunos na integração de treinos de alta intensidade com uma boa rotina alimentar.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="schedule" id="horarios">
+    <div class="schedule-container">
+        <h2>HORÁRIOS DE AULAS</h2>
+        <p class="schedule-subtitle">Escolha o melhor horário para sua rotina e venha treinar conosco.</p>
+        
+        <div class="schedule-grid">
+            <!-- Bloco Manhã -->
+            <div class="schedule-card">
+                <h3>MANHÃ</h3>
+                <ul>
+                    <li><span>06:00</span> - CrossFit</li>
+                    <li><span>07:00</span> - CrossFit</li>
+                    <li><span>08:00</span> - CrossFit</li>
+                    <li><span>09:00</span> - CrossFit</li>
+                </ul>
+            </div>
+
+            <!-- Bloco Tarde -->
+            <div class="schedule-card">
+                <h3>TARDE</h3>
+                <ul>
+                    <li><span>12:00</span> - Open Box</li>
+                    <li><span>15:00</span> - CrossFit</li>
+                    <li><span>17:00</span> - CrossFit</li>
+                </ul>
+            </div>
+
+            <!-- Bloco Noite -->
+            <div class="schedule-card">
+                <h3>NOITE</h3>
+                <ul>
+                    <li><span>18:00</span> - CrossFit</li>
+                    <li><span>19:00</span> - CrossFit</li>
+                    <li><span>20:00</span> - CrossFit</li>
+                    <li><span>21:00</span> - Open Box</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="plans" id="planos">
+    <div class="plans-container">
+        <h2>NOSSOS PLANOS</h2>
+        <p class="plans-subtitle">Escolha o plano ideal para a sua jornada e comece a treinar hoje mesmo.</p>
+        
+        <div class="plans-grid">
+            <!-- Plano 1 -->
+            <div class="plan-card">
+                <h3>MENSAL</h3>
+                <div class="price">R$ 250<span>/mês</span></div>
+                <ul>
+                    <li>Acesso livre às aulas</li>
+                    <li>Horários flexíveis</li>
+                    <li>Uso do Open Box</li>
+                </ul>
+                <a href="https://wa.me/5511970494049?text=Olá!%20Gostaria%20de%20assinar%20o%20plano%20MENSAL%20(R$250/mês)." target="_blank" class="btn-plano">ESCOLHER PLANO</a>
+            </div>
+
+            <!-- Plano 2 (Destaque/Popular) -->
+            <div class="plan-card popular">
+                <span class="badge">MAIS POPULAR</span>
+                <h3>TRIMESTRAL</h3>
+                <div class="price">R$ 220<span>/mês</span></div>
+                <ul>
+                    <li>Acesso livre às aulas</li>
+                    <li>Horários flexíveis</li>
+                    <li>Uso do Open Box</li>
+                    <li>Avaliação física inclusa</li>
+                </ul>
+                <a href="https://wa.me/5511970494049?text=Olá!%20Gostaria%20de%20assinar%20o%20plano%20TRIMESTRAL%20(R$220/mês)." target="_blank" class="btn-plano">ESCOLHER PLANO</a>
+            </div>
+
+            <!-- Plano 3 -->
+            <div class="plan-card">
+                <h3>ANUAL</h3>
+                <div class="price">R$ 180<span>/mês</span></div>
+                <ul>
+                    <li>Acesso livre às aulas</li>
+                    <li>Horários flexíveis</li>
+                    <li>Uso do Open Box</li>
+                    <li>Avaliação física inclusa</li>
+                    <li>1 Camiseta oficial de brinde</li>
+                </ul>
+                <a href="https://wa.me/5511970494049?text=Olá!%20Gostaria%20de%20assinar%20o%20plano%20ANUAL%20(R$180/mês)." target="_blank" class="btn-plano">ESCOLHER PLANO</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Seção de Contato -->
+<section class="contact" id="contato">
+    <div class="contact-container">
+        <h2>ENTRE EM CONTATO</h2>
+        <p class="contact-subtitle">Venha nos fazer uma visita ou tire suas dúvidas com nossa equipe.</p>
+        
+        <div class="contact-content">
+            <!-- Informações de Contato -->
+            <div class="contact-info">
+                <div class="info-item">
+                    <h3>Endereço</h3>
+                    <p>Av. Principal, 1000 - São Paulo, SP</p>
+                </div>
+                <!-- Botão de WhatsApp na Seção de Contato -->
+                <div class="whatsapp-box">
+                <h3>Prefere atendimento rápido?</h3>
+                <p>Fale diretamente com nossa equipe pelo WhatsApp:</p>
+                 <a href="https://wa.me/5511970494049?text=Olá!%20Gostaria%20de%20tirar%20duvidas%20sobre%20as%20aulas%20do%20box." target="_blank" class="btn-whatsapp">ABRIR WHATSAPP
+
+                </a>
+                </div>
+                <div class="info-item">
+                    <h3>Horário de Funcionamento</h3>
+                    <p>Segunda a Sexta: 06h às 21h<br>Sábados: 09h às 13h</p>
+                </div>
+            </div>
+
+            <!-- Formulário Simples de Contato -->
+            <form id="whatsappForm" class="contact-form">
+            <input type="text" id="nome" placeholder="Seu Nome" required>
+            <input type="email" id="email" placeholder="Seu E-mail" required>
+            <textarea id="mensagem" placeholder="Sua Mensagem" rows="4" required></textarea>
+            <button type="submit" class="btn-submit">ENVIAR MENSAGEM</button>
+            </form>
+        </div>
+    </div>
+    
+</section>
+
+<!-- Rodapé (Footer) -->
+<footer class="footer">
+    <div class="footer-container">
+        <div class="footer-logo">CROSS<span>-</span>BOX</div>
+        <p>&copy; 2026 Cross-Box. Todos os direitos reservados.</p>
+        <div class="social-links">
+            <a href="https://www.instagram.com" target="_blank">Instagram</a>
+            <a href="https://www.facebook.com" target="_blank">Facebook</a>
+            <a href="https://www.youtube.com" target="_blank">YouTube</a>
+        </div>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+    
+</body>
+</html>
